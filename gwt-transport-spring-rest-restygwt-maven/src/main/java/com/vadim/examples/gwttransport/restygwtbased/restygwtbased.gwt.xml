@@ -1,0 +1,12 @@
+<module rename-to="restygwtbased">
+    <inherits name='com.google.gwt.user.User'/>
+
+    <inherits name="com.google.gwt.logging.Logging"/>
+    <set-property name="gwt.logging.enabled" value="TRUE"/>
+
+    <inherits name="org.fusesource.restygwt.RestyGWT"/>
+    <entry-point class='com.vadim.examples.gwttransport.restygwtbased.client.MyEntryPoint'/>
+
+    <source path="client" />
+    <source path="shared" />
+</module>

@@ -1,0 +1,1 @@
+GWT Transport Architecture Example: based on Spring rest sercives and GWT JavaScriptObjects
