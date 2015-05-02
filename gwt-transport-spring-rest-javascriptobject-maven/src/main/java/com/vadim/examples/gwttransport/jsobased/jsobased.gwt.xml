@@ -1,0 +1,9 @@
+<module rename-to="jsobased">
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name="org.fusesource.restygwt.RestyGWT"/>
+
+    <inherits name="com.google.gwt.logging.Logging"/>
+    <set-property name="gwt.logging.enabled" value="TRUE"/>
+
+    <entry-point class='com.vadim.examples.gwttransport.jsobased.client.MyEntryPoint'/>
+</module>
